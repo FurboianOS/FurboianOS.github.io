@@ -1,0 +1,47 @@
+{
+    "imager": {
+        "latest_version": "1.7.4",
+        "url": "https://www.raspberrypi.org/software/"
+    },
+    "os_list": [
+        {
+            "name": "Furboian OS (32-bit)",
+            "description": "A port of Debian Bullseye with the GNOME Desktop (Recommended)",
+            "icon": "https://FurboianOS.github.io/repo/images/FurboianOS-Lite.png",
+            "url": "https://FurboianOS.github.io/repo/imgs/2023-02-21-raspios-bullseye-armhf.img",
+            "release_date": "2023-02-21",
+            "init_format": "systemd"
+        },
+        {
+            "name": "Other FurboianOS builds (32-bit)",
+            "description": "Other builds of FurboianOS (32-bit)",
+            "icon": "https://FurboianOS.github.io/repo/images/FurboianOS-Lite.png",
+            "subitems_url": "https://FurboianOS.github.io/repo/imager/other_builds.json"
+        },
+        {
+            "name": "Raspberry Pi Foundation",
+            "description": "Offical Raspberry Pi foundation images",
+            "icon": "icons/cat_raspberry_pi_os.png",
+            "subitems_url": "https://downloads.raspberrypi.org/os_list_imagingutility_v3.json"
+        },
+        {
+            "name": "Misc utility images",
+            "description": "Bootloader EEPROM configuration, etc.",
+            "icon": "icons/cat_misc_utility_images.png",
+            "subitems": [
+                {
+                    "name": "Bootloader",
+                    "description": "Restore the factory default settings and change boot priority",
+                    "icon": "https://downloads.raspberrypi.org/raspios_armhf/Raspberry_Pi_OS_(32-bit).png",
+                    "subitems_url": "https://downloads.raspberrypi.org/eeprom_recovery.json"
+                },
+                {
+                    "name": "PINN",
+                    "description": "A multi-boot OS installer with OS admin features",
+                    "icon": "http://raw.githubusercontent.com/procount/pinn-os/master/os/pinn.png",
+                    "subitems_url": "https://raw.githubusercontent.com/procount/pinn-os/master/iu/os_list_iu_pinn.json"
+                }
+            ]
+        }
+    ]
+}
