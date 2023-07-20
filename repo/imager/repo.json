@@ -7,7 +7,7 @@
         {
             "name": "Furboian OS (32-bit)",
             "description": "A port of Debian Bullseye with the GNOME Desktop (Recommended)",
-            "icon": "https://FurboianOS.github.io/repo/images/FurboianOS-Lite.png",
+            "icon": "https://FurboianOS.github.io/assets/images/FurboianOS-Lite.png",
             "url": "https://FurboianOS.github.io/repo/imgs/2023-02-21-raspios-bullseye-armhf.img",
             "release_date": "2023-02-21",
             "init_format": "systemd"
@@ -15,7 +15,7 @@
         {
             "name": "Other FurboianOS builds (32-bit)",
             "description": "Other builds of FurboianOS (32-bit)",
-            "icon": "https://FurboianOS.github.io/repo/images/FurboianOS-Lite.png",
+            "icon": "https://FurboianOS.github.io/assets/images/FurboianOS-Lite.png",
             "subitems_url": "https://FurboianOS.github.io/repo/imager/other_builds.json"
         },
         {
