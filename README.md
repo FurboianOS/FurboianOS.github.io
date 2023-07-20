@@ -1,2 +1,2 @@
 # FurboianOS.github.io
-The FurboianOS website
+This site is used for storing assets, and for some simple docs.
