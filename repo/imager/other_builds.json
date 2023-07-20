@@ -1,0 +1,28 @@
+{
+    "os_list": [
+        {
+            "name": "Furboian OS Lite (32-bit)",
+            "description": "A port of Debian Bullseye with the GNOME Desktop (Recommended)",
+            "icon": "https://FurboianOS.github.io/repo/images/FurboianOS-Lite.png",
+            "url": "https://FurboianOS.github.io/repo/imgs/2023-02-21-raspios-bullseye-armhf.img",
+            "release_date": "2023-02-21",
+            "init_format": "systemd"
+        },
+        {
+            "name": "Furboian OS Full (32-bit)",
+            "description": "A port of Debian Bullseye with the GNOME Desktop (Recommended)",
+            "icon": "https://FurboianOS.github.io/repo/images/FurboianOS-Full.png",
+            "url": "https://FurboianOS.github.io/repo/imgs/2023-02-21-raspios-bullseye-armhf.img",
+            "release_date": "2023-02-21",
+            "init_format": "systemd"
+        },
+        {
+            "name": "Furboian OS Nightly (32-bit)",
+            "description": "A port of Debian Bullseye with the GNOME Desktop (Recommended)",
+            "icon": "https://FurboianOS.github.io/repo/images/FurboianOS-Nightly.png",
+            "url": "https://FurboianOS.github.io/repo/imgs/2023-02-21-raspios-bullseye-armhf.img",
+            "release_date": "2023-02-21",
+            "init_format": "systemd"
+        }
+    ]
+}
