@@ -1,0 +1,181 @@
+<!doctype html>
+<html lang="en" class="h-100" data-bs-theme="dark">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>FurboianOS</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css"
+        integrity="sha512-t4GWSVZO1eC8BM339Xd7Uphw5s17a86tIZIj8qRxhnKub6WoyhnrxeCIMeAqBPgdZGlCcG2PrZjMc+Wr78+5Xg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.10.5/font/bootstrap-icons.min.css"
+        integrity="sha512-ZnR2wlLbSbr8/c9AgLg3jQPAattCUImNsae6NHYnS9KrIwRdcY9DxFotXhNAKIKbAXlRnujIqUWoXXwqyFOeIQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="../assets/css/bootstrap-styles.css">
+</head>
+
+<body class="d-flex h-100 text-center text-bg-dark">
+    <div class="modal modal-sheet p-4 py-md-5 fade" data-bs-backdrop="static" tabindex="-1" role="dialog"
+        id="acceptModal">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content rounded-4 shadow">
+                <div class="modal-header border-bottom-0">
+                    <h1 class="modal-title fs-5">Notice:</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body py-0">
+                    <p>This OS is a Work In Progress (W.I.P), meaning it may or may not work. We have no liability for
+                        damaged devices.</p>
+                </div>
+                <div class="modal-footer flex-column align-items-stretch w-100 gap-2 pb-3 border-top-0">
+                    <button type="button" class="btn btn-lg btn-primary">I understand</button>
+                    <button type="button" class="btn btn-lg btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal modal-sheet p-4 py-md-5" tabindex="-1" role="dialog" id="modalTour">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content rounded-4 shadow">
+                <div class="modal-body p-5">
+                    <h2 class="fw-bold mb-0">What's new</h2>
+
+                    <ul class="d-grid gap-4 my-5 list-unstyled small">
+                        <li class="d-flex gap-4">
+                            <svg class="bi text-body-secondary flex-shrink-0" width="48" height="48">
+                                <use xlink:href="#grid-fill" />
+                            </svg>
+                            <div>
+                                <h5 class="mb-0">Grid view</h5>
+                                Not into lists? Try the new grid view.
+                            </div>
+                        </li>
+                        <li class="d-flex gap-4">
+                            <svg class="bi text-warning flex-shrink-0" width="48" height="48">
+                                <use xlink:href="#bookmark-star" />
+                            </svg>
+                            <div>
+                                <h5 class="mb-0">Bookmarks</h5>
+                                Save items you love for easy access later.
+                            </div>
+                        </li>
+                        <li class="d-flex gap-4">
+                            <svg class="bi text-primary flex-shrink-0" width="48" height="48">
+                                <use xlink:href="#film" />
+                            </svg>
+                            <div>
+                                <h5 class="mb-0">Video embeds</h5>
+                                Share videos wherever you go.
+                            </div>
+                        </li>
+                    </ul>
+                    <button type="button" class="btn btn-lg btn-primary mt-5 w-100" data-bs-dismiss="modal">Great,
+                        thanks!</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
+        <header class="mb-auto">
+            <div>
+                <h3 class="float-md-start mb-0">FurboianOS</h3>
+                <nav class="nav nav-masthead justify-content-center float-md-end">
+                    <a class="nav-link fw-bold py-1 px-0" aria-current="page"
+                        href="https://FurboianOS.github.io">Home</a>
+                    <a class="nav-link fw-bold py-1 px-0 active" aria-current="page" href="#">Team</a>
+                </nav>
+            </div>
+        </header>
+        <main>
+            <section class="py-5 text-center container">
+                <div class="row py-lg-5">
+                    <div class="col-lg-6 col-md-8 mx-auto">
+                        <h1 class="fw-light">Our Team:</h1>
+                        <p class="lead text-body-secondary">Our team includes 3 people, oxmc, Sonny, and Ash
+                        </p>
+                    </div>
+                </div>
+            </section>
+
+            <div class="album py-5 bg-body-tertiary">
+                <div class="container">
+                    <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+                        <div class="col">
+                            <div class="card shadow-sm">
+                                <img class="bd-placeholder-img card-img-top" width="100%" height="225"
+                                    src="../assets/images/a30f6c7198cab328b887a1331d028d2c_1669584294390.webp">
+                                <div class="card-body">
+                                    <h1 class="card-text">oxmc</h1>
+                                    <p class="card-text">Codes the OS and builds the required projects for it.</p>
+                                    <div class="d-flex justify-content-between align-items-center">
+                                        <!--<div class="btn-group">
+                                            <button type="button"
+                                                class="btn btn-sm btn-outline-secondary">Github</button>
+                                        </div>-->
+                                        <small class="text-body-secondary"><span
+                                                class="badge d-flex align-items-center p-1 pe-2 text-primary-emphasis bg-primary-subtle border border-primary-subtle rounded-pill">
+                                                <img class="rounded-circle me-1" width="24" height="24"
+                                                    src="../assets/images/info-g898c7a145_1280.png" alt="">Owner
+                                            </span></small>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card shadow-sm">
+                                <img class="bd-placeholder-img card-img-top" width="100%" height="225"
+                                    src="../assets/images/Wolfystar_SonnySmileTransparent.png">
+                                <div class="card-body">
+                                    <h1 class="card-text">Sonny</h1>
+                                    <p class="card-text">Creates the UI elements for the OS.</p>
+                                    <div class="d-flex justify-content-between align-items-center">
+                                        <div class="btn-group">
+                                            <a type="button" class="btn btn-sm btn-outline-secondary"
+                                                style="background-color: #00acee; color: white;"
+                                                href="https://twitter.com/Sonny_Sundae">Twitter</a>
+                                        </div>
+                                        <small class="text-body-secondary"><span
+                                                class="badge d-flex align-items-center p-1 pe-2 text-primary-emphasis bg-primary-subtle border border-primary-subtle rounded-pill">
+                                                <img class="rounded-circle me-1" width="24" height="24"
+                                                    src="../assets/images/info-g898c7a145_1280.png" alt="">UI
+                                            </span></small>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card shadow-sm">
+                                <img class="bd-placeholder-img card-img-top" width="100%" height="225"
+                                    src="../assets/images/placeholder-image.png">
+                                <div class="card-body">
+                                    <h1 class="card-text">Ash</h1>
+                                    <p class="card-text">Gives ideas for the OS and helps us see from a users
+                                        perspective</p>
+                                    <div class="d-flex justify-content-between align-items-center">
+                                        <small class="text-body-secondary"><span
+                                                class="badge d-flex align-items-center p-1 pe-2 text-primary-emphasis bg-primary-subtle border border-primary-subtle rounded-pill">
+                                                <img class="rounded-circle me-1" width="24" height="24"
+                                                    src="../assets/images/info-g898c7a145_1280.png" alt="">Tester
+                                            </span></small>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <footer class="mt-auto text-white-50">
+            <p>Copyright 2023 <a href="https://FurboianOS.github.io/team">FurboianOS team</a></p>
+        </footer>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js"
+        integrity="sha512-VK2zcvntEufaimc+efOYi622VN5ZacdnufnmX7zIhCPmjhKnOi9ZDMtg1/ug5l183f19gG1/cBstPO4D8N/Img=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</body>
+
+</html>

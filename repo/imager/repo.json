@@ -5,28 +5,18 @@
     },
     "os_list": [
         {
-            "name": "Furboian OS (32-bit)",
-            "description": "A port of Debian Bullseye with the GNOME Desktop (Recommended)",
-            "icon": "D:\\Files\\RpiOS\\Furboian\\images\\FurboianOS-Lite.png",
-            "url": "D:\\Files\\RpiOS\\Furboian\\2023-02-21-raspios-bullseye-armhf.img",
-            "release_date": "2023-02-21",
-            "init_format": "systemd"
-        },
-        {
-            "name": "Furboian OS Full (32-bit)",
-            "description": "A port of Debian Bullseye with the GNOME Desktop (Recommended)",
-            "icon": "D:\\Files\\RpiOS\\Furboian\\images\\FurboianOS-Full.png",
-            "url": "D:\\Files\\RpiOS\\Furboian\\2023-02-21-raspios-bullseye-armhf.img",
-            "release_date": "2023-02-21",
-            "init_format": "systemd"
-        },
-        {
             "name": "Furboian OS Nightly (32-bit)",
             "description": "A port of Debian Bullseye with the GNOME Desktop (Recommended)",
-            "icon": "D:\\Files\\RpiOS\\Furboian\\images\\FurboianOS-Nightly.png",
-            "url": "D:\\Files\\RpiOS\\Furboian\\2023-02-21-raspios-bullseye-armhf.img",
+            "icon": "https://FurboianOS.github.io/assets/images/FurboianOS-Nightly.png",
+            "url": "https://FurboianOS.github.io/os-builds/nightly/img/2023-02-21-raspios-bullseye-armhf.img",
             "release_date": "2023-02-21",
             "init_format": "systemd"
+        },
+        {
+            "name": "Other FurboianOS builds (32-bit)",
+            "description": "Other FurboianOS builds",
+            "icon": "https://FurboianOS.github.io/assets/images/FurboianOS-Other.png",
+            "subitems_url": "https://FurboianOS.github.io/repo/imager/other_builds.json"
         },
         {
             "name": "Raspberry Pi Foundation",
